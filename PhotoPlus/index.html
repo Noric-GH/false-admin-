@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/chatbot/chatbot.css">
+
+    <title> ФОТО СТУДИЯ + </title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <a href="#" class="nav__logo">
+                <svg class="logo__img" width="63" height="56" viewBox="0 0 63 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M30.5 12.6885C30.2718 12.693 30.0352 12.7025 29.7913 12.7174M11.6906 31.5C11.6906 38.6703 14.5361 43.169 18.1528 45.8852M11.6906 31.5L22.0173 26.0323M11.6906 31.5C11.6906 23.6937 15.201 18.9163 19.4357 16.1297M29.7913 12.7174C31.4284 12.7149 33.5023 12.9741 35.6634 13.6357M29.7913 12.7174C26.8795 12.8955 22.9133 13.8412 19.4357 16.1297M30.5 21.541L22.0173 26.0323M18.1528 45.8852C21.9781 48.7581 26.666 49.637 29.7624 49.5738C31.0301 49.5738 32.5593 49.4169 34.1881 49.0384M18.1528 45.8852L20.594 33.3443M22.0173 26.0323L20.594 33.3443M20.594 33.3443L26.0743 39.6711M34.1881 49.0384L26.0743 39.6711M34.1881 49.0384C38.6339 48.0054 43.8222 45.3215 46.4642 39.6711M26.0743 39.6711H34.9257M46.4642 39.6711C47.5477 37.3537 48.2029 34.5373 48.2029 31.1311C48.2029 27.7221 47.5476 24.9049 46.4642 22.5881M46.4642 39.6711H34.9257M34.9257 39.6711L39.1991 33.3443M46.4642 22.5881L39.1991 33.3443M46.4642 22.5881C44.1093 17.5526 39.7318 14.8811 35.6634 13.6357M39.1991 33.3443L37.6771 24.8607M35.6634 13.6357L37.6771 24.8607M19.4357 16.1297L37.6771 24.8607M30.5 9C23.1238 9 8.29757 13.5 8.00252 31.5C7.87959 39 12.207 54 30.5 54C48.793 54 53.1204 39 52.9975 31.5C52.9975 24 48.498 9 30.5 9Z" />
+                    <circle cx="7.5" cy="10.5" r="5" />
+                    <path d="M30 29L30 33" stroke-linecap="round" />
+                    <path d="M32 31L28 31" stroke-linecap="round" />
+                </svg>
+
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link link">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link link">Портфолио</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link link">Услуги</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link link">Контакты</a>
+                    </li>
+                </ul>
+                <i class="bx bx-x nav__close" id="nav-close" style="color: black;"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu-alt-right' style="color: black;"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="/assets/images/bg__home.jpg" alt="" class="home__img">
+            <div class="blur"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__data-title"><b>ФОТО +</b></h1>
+                    <p class="home__data-subtitle">Фотостудия в Москве</p>
+                    <a href="#contact" class="button">Записаться</a>
+
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link link">
+                        <i class='bx bxl-telegram'></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link link">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link link">
+                        <i class='bx bxl-vk'></i>
+                    </a>
+                </div>
+            </div>
+
+            <a class="hero-mouse anchor" href="#about">
+                <div class="mouse-icon"><span></span></div>
+            </a>
+
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="/assets/images/about.jpg" alt="" class="about__img">
+                    </div>
+                </div>
+
+                <div class="about__data">
+                    <h5 class="section__subtitle">О нас</h5>
+                    <h2 class="section__title about__title">Красота в деталях</h2>
+                    <p class="about__description">Воссоздаем ваши самые смелые идеи в
+                        ветмосферном стиле.
+                        Наши фотографы - профессионалы с многолетним опытом. Мы организовываем!
+                        Фотосессии разного вида и разного уровня сложности.
+                    </p>
+
+                    <div class="about__info-items grid">
+                        <div class="about__info-item">
+                            <h4 class="about__info-item_num">2008</h4>
+                            <p class="about__info-item_description">Год основания студии</p>
+                        </div>
+                        <div class="about__info-item">
+                            <h4 class="about__info-item_num">20</h4>
+                            <p class="about__info-item_description">Локаций для фотосессий</p>
+                        </div>
+                        <div class="about__info-item">
+                            <h4 class="about__info-item_num">210</h4>
+                            <p class="about__info-item_description">Реализованных проектов</p>
+                        </div>
+                        <div class="about__info-item">
+                            <h4 class="about__info-item_num">11</h4>
+                            <p class="about__info-item_description">Професиональных фотографов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Portfolio ====================-->
+        <section class="portfolio section container" id="portfolio">
+            <h2 class="portfolio__title">
+                Портфолио
+            </h2>
+            <div class="portfolio__image-content">
+                <div class="carousel">
+                    <img src="https://i.pinimg.com/564x/ab/57/76/ab57763c3a75f7c43463010bdc7e73c2.jpg" alt="img"
+                        draggable="false">
+                    <img src="https://i.pinimg.com/564x/e7/55/7c/e7557c05638338d02e0432cfa6ff9ddd.jpg" alt="img"
+                        draggable="false">
+                    <img src="https://i.pinimg.com/564x/91/e7/d7/91e7d791499a0c9bbf53b62ec6779b23.jpg" alt="img"
+                        draggable="false">
+                    <img src="https://i.pinimg.com/564x/68/50/75/68507571fc18bca6b4eb480589fb4290.jpg" alt="img"
+                        draggable="false">
+                    <img src="https://i.pinimg.com/564x/f3/b6/13/f3b613eb7b5a2b0c93b1b76bc9b1e4de.jpg" alt="img"
+                        draggable="false">
+                    <img src="https://i.pinimg.com/564x/68/d4/57/68d4575eb63f7c604bcbda6b8d5d0158.jpg" alt="img"
+                        draggable="false">
+                    <img src="https://i.pinimg.com/564x/59/30/33/5930331b83a78a49acf64933b2913b4c.jpg" alt="img"
+                        draggable="false">
+                    <img src="https://i.pinimg.com/564x/1a/3c/0b/1a3c0b0e63928ea5a42d0c87cb90e020.jpg" alt="img"
+                        draggable="false">
+                    <img src="https://i.pinimg.com/736x/73/2d/d6/732dd66d2b7feb4878348fc1098d88d5.jpg" alt="img"
+                        draggable="false">
+                </div>
+            </div>
+            <div class="portfolio__image-down-content">
+                <div class="portfolio__navigation-content">
+                    <i id="left" class='bx bx-chevron-left arrow'></i>
+                    <i id="right" class='bx bx-chevron-right arrow'></i>
+                </div>
+                <a href="#" class="button">Перейти в instagram</a>
+            </div>
+        </section>
+
+        <!--==================== Services ====================-->
+        <section class="services section container" id="services">
+            <h5 class="section__subtitle">Услуги</h5>
+            <h2 class="section__title about__title">Фотосъемка</h2>
+            <div class="cheaper grid">
+                <div class="cheaper__servicesText-content">
+                    <div class="cheaper__servicesText-top">
+
+                        <h4 class="cheaper__servicesText-title">Студийная</h4>
+                        <p class="cheaper__servicesText-descr">В одной из наших студий под <br> выбранный вами стиль</p>
+                        <p class="cheaper__servicesText-price" style="color: var(--first-color-second); padding-bottom: 1rem;
+                    ">от 3000 р.</p>
+
+                    </div>
+
+                    <div class="cheaper__servicesText-down">
+
+                        <h4 class="cheaper__servicesText-title">Уличная</h4>
+                        <p class="cheaper__servicesText-descr">В совместно выбранном месте</p>
+                        <p class="cheaper__servicesText-price" style="color: var(--first-color-second); padding-bottom: 1rem;
+                    ">от 4000 р.</p>
+
+                    </div>
+                </div>
+
+                <div class="cheaper__services-image">
+                    <img src="/assets/images/service__image.jpg" alt="">
+                </div>
+            </div>
+
+            <h2 class="section__title about__title">Видеосъемка</h2>
+            <div class="cheaper grid">
+                <div class="cheaper__services-image">
+                    <img src="/assets/images/service__image2.jpg" alt="">
+                </div>
+                <div class="cheaper__servicesText-content">
+                    <div class="cheaper__servicesText-top">
+
+                        <h4 class="cheaper__servicesText-title">Студийная</h4>
+                        <p class="cheaper__servicesText-descr">Правильно подберем освещениие и ракурс,<br> для передачи
+                            атмосферы</p>
+                        <p class="cheaper__servicesText-price" style="color: var(--first-color-second); padding-bottom: 1rem;
+                    ">от 7000 р.</p>
+
+                    </div>
+
+                    <div class="cheaper__servicesText-down">
+
+                        <h4 class="cheaper__servicesText-title">Уличная</h4>
+                        <p class="cheaper__servicesText-descr">Профессиональная и качественная съемка</p>
+                        <p class="cheaper__servicesText-price" style="color: var(--first-color-second); padding-bottom: 1rem;
+                    ">от 6000 р.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section container" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section__title">
+                        Свяжитесь с нами сегодня
+                        Через любой из предложенных
+                        Информация
+                    </h2>
+
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Позвоните нам для мгновенной поддержки</h3>
+                            <span class="contact__description">
+                                <i class='bx bxs-phone'></i>
+                                +999 888 777
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Напишите нам по почте</h3>
+                            <span class="contact__description">
+                                <i class='bx bxs-envelope'></i>
+                                photoplus@mail.ru
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="email" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Почта</label>
+                        </div>
+
+                        <div class="contact__content">
+                            <input type="text" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Имя</label>
+                        </div>
+
+                        <div class="contact__content contact__area">
+                            <textarea name="message" placeholder=" " class="contact__input"></textarea>
+                            <label for="" class="contact__label">Сообщение</label>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex">
+                        Отправить
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="nav__logo">
+                    <svg class="logo__img" width="63" height="56" viewBox="0 0 63 56" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M30.5 12.6885C30.2718 12.693 30.0352 12.7025 29.7913 12.7174M11.6906 31.5C11.6906 38.6703 14.5361 43.169 18.1528 45.8852M11.6906 31.5L22.0173 26.0323M11.6906 31.5C11.6906 23.6937 15.201 18.9163 19.4357 16.1297M29.7913 12.7174C31.4284 12.7149 33.5023 12.9741 35.6634 13.6357M29.7913 12.7174C26.8795 12.8955 22.9133 13.8412 19.4357 16.1297M30.5 21.541L22.0173 26.0323M18.1528 45.8852C21.9781 48.7581 26.666 49.637 29.7624 49.5738C31.0301 49.5738 32.5593 49.4169 34.1881 49.0384M18.1528 45.8852L20.594 33.3443M22.0173 26.0323L20.594 33.3443M20.594 33.3443L26.0743 39.6711M34.1881 49.0384L26.0743 39.6711M34.1881 49.0384C38.6339 48.0054 43.8222 45.3215 46.4642 39.6711M26.0743 39.6711H34.9257M46.4642 39.6711C47.5477 37.3537 48.2029 34.5373 48.2029 31.1311C48.2029 27.7221 47.5476 24.9049 46.4642 22.5881M46.4642 39.6711H34.9257M34.9257 39.6711L39.1991 33.3443M46.4642 22.5881L39.1991 33.3443M46.4642 22.5881C44.1093 17.5526 39.7318 14.8811 35.6634 13.6357M39.1991 33.3443L37.6771 24.8607M35.6634 13.6357L37.6771 24.8607M19.4357 16.1297L37.6771 24.8607M30.5 9C23.1238 9 8.29757 13.5 8.00252 31.5C7.87959 39 12.207 54 30.5 54C48.793 54 53.1204 39 52.9975 31.5C52.9975 24 48.498 9 30.5 9Z" />
+                        <circle cx="7.5" cy="10.5" r="5" />
+                        <path d="M30 29L30 33" stroke-linecap="round" />
+                        <path d="M32 31L28 31" stroke-linecap="round" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Адрес</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">1234 - Peru</li>
+                    <li class="footer__information">La Libertad - 43210</li>
+                    <li class="footer__information">123-456-789</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Контакты</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">+999 888 777</li>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link link">
+                            <i class='bx bxl-telegram'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link link">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link link">
+                            <i class='bx bxl-vk'></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+
+        <p class="footer__copy">&#169; "ООО ФОТО +". Все права защищены</p>
+    </footer>
+
+    </main>
+    <!--=============== MAIN JS ===============-->
+    <script src="/assets/main.js"></script>
+</body>
+
+</html>

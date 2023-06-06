@@ -1,0 +1,19 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__title{
+    display: flex;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.form__input{
+    padding: .5rem;
+}
+
+.login__content{
+    background-color: #023e59;
+    padding: 3rem 1.5rem;
+    border-radius:.5rem;
+}
